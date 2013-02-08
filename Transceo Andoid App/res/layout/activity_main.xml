@@ -19,7 +19,9 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:hint="@string/edit_mail"
-        android:inputType="textEmailAddress" >
+        android:inputType="textEmailAddress" 
+        android:fontFamily="Arial"
+        android:width="20dp" >
 
         <requestFocus />
     </EditText>
@@ -30,7 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_mail"
         android:hint="@string/edit_password"
-        android:inputType="textPassword" >
+        android:inputType="textPassword" 
+        android:fontFamily="Arial"
+        android:width="20dp" >
     </EditText>
 
     <Button
