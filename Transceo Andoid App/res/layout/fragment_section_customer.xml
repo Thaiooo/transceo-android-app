@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/label_last_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit_last_name"
+        android:text="@string/edit_last_name" />
+
+    <EditText
+        android:id="@+id/edit_last_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/label_last_name"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:inputType="textCapCharacters" />
+
+    <TextView
+        android:id="@+id/label_first_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit_first_name"
+        android:layout_alignLeft="@+id/label_last_name"
+        android:layout_alignRight="@+id/label_last_name"
+        android:layout_toLeftOf="@+id/edit_first_name"
+        android:text="@string/edit_first_name" />
+
+    <EditText
+        android:id="@+id/edit_first_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_last_name"
+        android:layout_below="@+id/edit_last_name"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/label_firm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit_firm"
+        android:layout_alignLeft="@+id/label_first_name"
+        android:layout_alignRight="@+id/label_first_name"
+        android:layout_toLeftOf="@+id/edit_firm"
+        android:text="@string/edit_firm" />
+
+    <EditText
+        android:id="@+id/edit_firm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_first_name"
+        android:layout_below="@+id/edit_first_name"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/label_phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/label_firm"
+        android:layout_alignRight="@+id/label_firm"
+        android:layout_alignTop="@+id/edit_phone"
+        android:layout_toLeftOf="@+id/edit_phone"
+        android:text="@string/edit_phone" />
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_firm"
+        android:layout_below="@+id/edit_firm"
+        android:inputType="phone" />
+
+</RelativeLayout>
