@@ -13,16 +13,24 @@
         android:contentDescription="@string/image_logo"
         android:src="@drawable/logo" />
 
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible" />
+
     <EditText
         android:id="@+id/edit_mail"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:hint="@string/edit_mail"
-        android:inputType="textEmailAddress" 
+        android:layout_above="@+id/edit_password"
         android:fontFamily="Arial"
+        android:hint="@string/edit_mail"
+        android:inputType="textEmailAddress"
         android:width="20dp" >
-
         <requestFocus />
     </EditText>
 
@@ -30,15 +38,15 @@
         android:id="@+id/edit_password"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edit_mail"
-        android:hint="@string/edit_password"
-        android:inputType="textPassword" 
+        android:layout_centerVertical="true"
         android:fontFamily="Arial"
+        android:hint="@string/edit_password"
+        android:inputType="textPassword"
         android:width="20dp" >
     </EditText>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button_connection"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_password"
