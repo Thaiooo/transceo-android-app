@@ -50,7 +50,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_password"
-        android:onClick="sendMessage"
+        android:onClick="login"
         android:text="@string/button_connexion"
         android:textSize="17sp"
         android:textStyle="bold" />
