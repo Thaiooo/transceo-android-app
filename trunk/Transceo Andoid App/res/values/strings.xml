@@ -17,5 +17,6 @@
     <string name="edit_first_name">Prénom</string>
     <string name="edit_firm">Société</string>
     <string name="edit_phone">Téléphone</string>
+    <string name="label_subscription"><u>Souscription</u></string>
 
 </resources>

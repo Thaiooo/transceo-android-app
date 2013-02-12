@@ -6,11 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
@@ -35,6 +37,13 @@ public class MainActivity extends Activity {
 		progressBar = (ProgressBar) findViewById(R.id.progress_bar);
 		connectionButton = (Button) findViewById(R.id.button_connection);
 
+		TextView t2 = (TextView) findViewById(R.id.label_subsciption);
+		t2.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+			}
+		});
+
 		getWindow().setSoftInputMode(
 				WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
@@ -44,6 +53,10 @@ public class MainActivity extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		return true;
+	}
+
+	public void subsciption(View view) {
+		System.out.println("Hello");
 	}
 
 	/** Called when the user clicks the Send button */
