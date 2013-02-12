@@ -4,6 +4,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_subscription">Sousciption</string>
     <string name="edit_mail">Adresse électronique</string>
     <string name="edit_password">Mot de passe</string>
     <string name="button_connexion">Connexion</string>

@@ -26,6 +26,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.transceo.app.android.MainActivity" />
         </activity>
+         <activity
+            android:name=".SubscriptionActivity"
+            android:label="@string/title_activity_subscription"
+            android:theme="@style/BookingTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.transceo.app.android.SubscriptionActivity" />
+        </activity>
     </application>
 
 </manifest>
