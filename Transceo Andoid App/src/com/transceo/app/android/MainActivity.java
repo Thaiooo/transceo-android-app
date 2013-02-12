@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
@@ -33,6 +34,10 @@ public class MainActivity extends Activity {
 		passwordText = (EditText) findViewById(R.id.edit_password);
 		progressBar = (ProgressBar) findViewById(R.id.progress_bar);
 		connectionButton = (Button) findViewById(R.id.button_connection);
+
+		getWindow().setSoftInputMode(
+				WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+
 	}
 
 	@Override
@@ -57,7 +62,7 @@ public class MainActivity extends Activity {
 				public void run() {
 					try {
 						// TODO Controle du login mot de passe
-						Thread.sleep(1000 * 2);
+						Thread.sleep(1000 * 1);
 						int status = 0;
 						if (!mail.equals("a")) {
 							status = 1;
