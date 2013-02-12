@@ -31,7 +31,6 @@
         android:hint="@string/edit_mail"
         android:inputType="textEmailAddress"
         android:width="20dp" >
-        <requestFocus />
     </EditText>
 
     <EditText
@@ -54,5 +53,19 @@
         android:text="@string/button_connexion"
         android:textSize="17sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/label_subsciption"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_password"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:autoLink="web"
+        android:fontFamily="Arial"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:onClick="subsciption"
+        android:text="@string/label_subscription" />
 
 </RelativeLayout>
