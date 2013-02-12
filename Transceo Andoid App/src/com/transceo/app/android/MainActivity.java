@@ -41,6 +41,9 @@ public class MainActivity extends Activity {
 		t2.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this,
+						SubscriptionActivity.class);
+				startActivity(intent);
 			}
 		});
 
@@ -53,10 +56,6 @@ public class MainActivity extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		return true;
-	}
-
-	public void subsciption(View view) {
-		System.out.println("Hello");
 	}
 
 	/** Called when the user clicks the Send button */
