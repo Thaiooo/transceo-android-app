@@ -2,6 +2,7 @@
 
     <color name="grey">#323232</color>
     <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
 
     <style name="LoginActivityTheme" parent="@android:style/Theme.NoTitleBar">
         <item name="android:editTextStyle">@style/red_edittext_login</item>
@@ -9,13 +10,13 @@
         <item name="android:windowBackground">@color/grey</item>
         <item name="android:colorBackground">@color/grey</item>
         <item name="android:singleLine">true</item>
-        <!-- 
+        <!--
         <item name="android:width">20sp</item>
-        <item name="android:fontFamily">Arial</item>
+        <item name="android:fontFamily">Arial</item>
         -->
     </style>
-    
-     <style name="SubscribeTheme">
+
+    <style name="SubscribeTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:editTextStyle">@style/red_edittext</item>
         <item name="android:buttonStyle">@style/red_btn</item>
         <item name="android:windowBackground">@color/grey</item>
@@ -24,6 +25,8 @@
     </style>
 
     <style name="BookingTheme">
+        <item name="android:editTextStyle">@style/red_edittext</item>
+        <item name="android:buttonStyle">@style/red_btn</item>
         <item name="android:windowBackground">@color/grey</item>
         <item name="android:colorBackground">@color/grey</item>
         <item name="android:singleLine">true</item>
