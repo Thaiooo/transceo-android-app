@@ -5,6 +5,7 @@
 
     <style name="LoginActivityTheme" parent="@android:style/Theme.NoTitleBar">
         <item name="android:editTextStyle">@style/red_edittext_login</item>
+        <item name="android:buttonStyle">@style/red_btn</item>
         <item name="android:windowBackground">@color/grey</item>
         <item name="android:colorBackground">@color/grey</item>
         <item name="android:singleLine">true</item>

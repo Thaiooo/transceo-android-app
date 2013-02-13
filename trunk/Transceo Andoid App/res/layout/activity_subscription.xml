@@ -54,8 +54,8 @@
         android:layout_below="@+id/edit_mail"
         android:layout_marginTop="30dp"
         android:text="@string/button_subscription"
+        android:textColor="#FFFFFF"
         android:textSize="17sp"
-        android:textStyle="bold" 
-        android:textColor="#FFFFFF"/>
+        android:textStyle="bold" />
 
 </RelativeLayout>
