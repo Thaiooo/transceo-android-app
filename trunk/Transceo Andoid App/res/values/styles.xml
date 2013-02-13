@@ -4,6 +4,10 @@
         <item name="android:background">@drawable/red_edit_text</item>
     </style>
     
+    <style name="red_edittext_login" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/red_edit_text_login</item>
+    </style>
+    
     <style name="red_btn" parent="@android:style/Widget.Button">
         <item name="android:background">@drawable/red_btn</item>
     </style>

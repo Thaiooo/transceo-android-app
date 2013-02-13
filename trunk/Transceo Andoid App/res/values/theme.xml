@@ -4,7 +4,7 @@
     <color name="red">#FF0000</color>
 
     <style name="LoginActivityTheme" parent="@android:style/Theme.NoTitleBar">
-        <item name="android:editTextStyle">@style/red_edittext</item>
+        <item name="android:editTextStyle">@style/red_edittext_login</item>
         <item name="android:windowBackground">@color/grey</item>
         <item name="android:colorBackground">@color/grey</item>
         <item name="android:singleLine">true</item>
@@ -15,20 +15,17 @@
     </style>
     
      <style name="SubscribeTheme">
+        <item name="android:editTextStyle">@style/red_edittext</item>
         <item name="android:buttonStyle">@style/red_btn</item>
         <item name="android:windowBackground">@color/grey</item>
         <item name="android:colorBackground">@color/grey</item>
         <item name="android:singleLine">true</item>
-        <item name="android:fontFamily">Arial</item>
-        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="BookingTheme">
         <item name="android:windowBackground">@color/grey</item>
         <item name="android:colorBackground">@color/grey</item>
         <item name="android:singleLine">true</item>
-        <item name="android:fontFamily">Arial</item>
-        <item name="android:textSize">20sp</item>
     </style>
 
 </resources>
