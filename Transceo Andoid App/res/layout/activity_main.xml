@@ -51,6 +51,7 @@
         android:layout_below="@+id/edit_password"
         android:onClick="login"
         android:text="@string/button_connexion"
+        android:textColor="#FFFFFF"
         android:textSize="17sp"
         android:textStyle="bold" />
 
