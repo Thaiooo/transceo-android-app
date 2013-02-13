@@ -8,6 +8,7 @@
     <string name="edit_mail">Adresse électronique</string>
     <string name="edit_password">Mot de passe</string>
     <string name="button_connexion">Connexion</string>
+    <string name="button_subscription">Souscrire</string>
     <string name="image_logo">Transceo logo</string>
     <string name="edit_date">Date de réservation</string>
     <string name="edit_time">Heure de réservation</string>
