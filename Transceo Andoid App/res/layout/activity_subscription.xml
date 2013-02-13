@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:hint="@string/edit_last_name"
-        android:inputType="textCapCharacters" />
+        android:inputType="textCapCharacters"
+        android:textColor="@color/white" />
 
     <EditText
         android:id="@+id/edit_first_name"
@@ -19,8 +20,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_last_name"
         android:hint="@string/edit_first_name"
-        android:inputType="textCapWords" >
-    </EditText>
+        android:inputType="textCapWords"
+        android:textColor="@color/white" />
 
     <EditText
         android:id="@+id/edit_firm"
@@ -28,7 +29,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_first_name"
         android:hint="@string/edit_firm"
-        android:inputType="textCapWords" />
+        android:inputType="textCapWords"
+        android:textColor="@color/white" />
 
     <EditText
         android:id="@+id/edit_phone"
@@ -36,7 +38,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_firm"
         android:hint="@string/edit_phone"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:textColor="@color/white" />
 
     <EditText
         android:id="@+id/edit_mail"
@@ -44,7 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_phone"
         android:hint="@string/edit_mail"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/button_subsciption"
@@ -54,7 +58,7 @@
         android:layout_below="@+id/edit_mail"
         android:layout_marginTop="30dp"
         android:text="@string/button_subscription"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textSize="17sp"
         android:textStyle="bold" />
 
