@@ -3,5 +3,9 @@
     <style name="red_edittext" parent="@android:style/Widget.EditText">
         <item name="android:background">@drawable/red_edit_text</item>
     </style>
+    
+    <style name="red_btn" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/red_btn</item>
+    </style>
 
 </resources>
