@@ -102,16 +102,14 @@ public class BookingActivity extends FragmentActivity implements
 				return new FragmentReservation();
 			case 1:
 				return new FragmentDepart();
-			case 2:
-				return new FragmentDestination();
 			default:
-				return new FragmentCustomer();
+				return new FragmentDestination();
 			}
 		}
 
 		@Override
 		public int getCount() {
-			return 4;
+			return 3;
 		}
 
 		@Override
@@ -121,10 +119,8 @@ public class BookingActivity extends FragmentActivity implements
 				return "Réservation";
 			case 1:
 				return "Départ";
-			case 2:
-				return "Destination";
 			default:
-				return "Coordonnées";
+				return "Destination";
 			}
 		}
 	}
