@@ -21,7 +21,7 @@
         <activity
             android:name=".BookingActivity"
             android:label="@string/title_activity_booking"
-            android:theme="@style/BookingTheme" >
+            android:theme="@style/TransceoTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.transceo.app.android.MainActivity" />
@@ -29,7 +29,7 @@
          <activity
             android:name=".SubscriptionActivity"
             android:label="@string/title_activity_subscription"
-            android:theme="@style/SubscribeTheme" >
+            android:theme="@style/TransceoTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.transceo.app.android.SubscriptionActivity" />
