@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dp" >
+
+    <EditText
+        android:id="@+id/edit_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:hint="@string/edit_date"
+        android:inputType="date"
+        android:width="150dp" />
+
+    <EditText
+        android:id="@+id/edit_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/edit_date"
+        android:hint="@string/edit_time"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/edit_nb_personne"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_time"
+        android:hint="@string/edit_nb_personne"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_nb_personne"
+        android:hint="@string/edit_comment"
+        android:inputType="textMultiLine" />
+
+</RelativeLayout>

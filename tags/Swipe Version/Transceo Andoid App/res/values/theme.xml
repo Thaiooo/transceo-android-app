@@ -1,0 +1,28 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="grey">#323232</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+
+    <style name="LoginActivityTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:editTextStyle">@style/red_edittext_login</item>
+        <item name="android:buttonStyle">@style/red_btn</item>
+        <item name="android:windowBackground">@color/grey</item>
+        <item name="android:colorBackground">@color/grey</item>
+        <item name="android:singleLine">true</item>
+        <!--
+        <item name="android:width">20sp</item>
+        <item name="android:fontFamily">Arial</item>
+        -->
+    </style>
+
+    <style name="TransceoTheme">
+    	<item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:editTextStyle">@style/red_edittext</item>
+        <item name="android:buttonStyle">@style/red_btn</item>
+        <item name="android:windowBackground">@color/grey</item>
+        <item name="android:colorBackground">@color/grey</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>
