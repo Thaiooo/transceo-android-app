@@ -100,16 +100,14 @@ public class BookingActivity extends FragmentActivity implements
 			switch (i) {
 			case 0:
 				return new FragmentReservation();
-			case 1:
-				return new FragmentDepart();
 			default:
-				return new FragmentDestination();
+				return new FragmentDepart();
 			}
 		}
 
 		@Override
 		public int getCount() {
-			return 3;
+			return 2;
 		}
 
 		@Override
@@ -117,10 +115,8 @@ public class BookingActivity extends FragmentActivity implements
 			switch (position) {
 			case 0:
 				return "Réservation";
-			case 1:
-				return "Départ";
 			default:
-				return "Destination";
+				return "Trajet";
 			}
 		}
 	}
