@@ -10,8 +10,8 @@
     <string name="button_connexion">Connexion</string>
     <string name="button_subscription">Souscrire</string>
     <string name="image_logo">Transceo logo</string>
-    <string name="edit_date">Date de réservation</string>
-    <string name="edit_time">Heure de réservation</string>
+    <string name="edit_date">Date</string>
+    <string name="edit_time">Heure</string>
     <string name="edit_nb_personne">Nb de personne</string>
     <string name="edit_comment">Information complémentaire</string>
     <string name="title_activity_booking">Réservation</string>
