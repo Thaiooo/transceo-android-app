@@ -16,15 +16,8 @@
         -->
     </style>
 
-    <style name="SubscribeTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:editTextStyle">@style/red_edittext</item>
-        <item name="android:buttonStyle">@style/red_btn</item>
-        <item name="android:windowBackground">@color/grey</item>
-        <item name="android:colorBackground">@color/grey</item>
-        <item name="android:singleLine">true</item>
-    </style>
-
-    <style name="BookingTheme">
+    <style name="TransceoTheme">
+    	<item name="android:actionBarStyle">@style/ActionBar</item>
         <item name="android:editTextStyle">@style/red_edittext</item>
         <item name="android:buttonStyle">@style/red_btn</item>
         <item name="android:windowBackground">@color/grey</item>
