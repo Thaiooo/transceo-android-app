@@ -76,11 +76,13 @@ public class MainActivity extends Activity {
 						// TODO Controle du login mot de passe
 						Thread.sleep(1000 * 1);
 						int status = 0;
+						/*
 						if (!mail.equals("a")) {
 							status = 1;
 						} else if (!password.equals("a")) {
 							status = 2;
 						}
+						*/
 
 						showComponent(status);
 					} catch (Exception e) {
