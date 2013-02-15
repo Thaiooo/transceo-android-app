@@ -20,5 +20,9 @@
     <string name="edit_firm">Société</string>
     <string name="edit_phone">Téléphone</string>
     <string name="label_subscription"><u>Souscription</u></string>
+    <string name="hint_adresse">Adresse</string>
+    <string name="hint_ville">Ville</string>
+    <string name="label_depart">Départ</string>
+    <string name="label_destination">Destination</string>
 
 </resources>

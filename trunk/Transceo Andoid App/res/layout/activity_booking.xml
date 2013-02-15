@@ -45,8 +45,9 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/edit_comment"
         android:layout_below="@+id/edit_comment"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
-        android:text="Départ"
+        android:text="@string/label_depart"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -54,41 +55,44 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/text_depart"
-        android:layout_below="@+id/edit_comment"
-        android:layout_marginLeft="300dp"
-        android:text="Destination"
+        android:layout_alignBottom="@+id/text_depart"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/text_depart"
+        android:text="@string/label_destination"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/edit_adr_depart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/text_depart"
         android:layout_below="@+id/text_depart"
-        android:ems="10"
-        android:inputType="textPostalAddress" >
-
-        <requestFocus />
-    </EditText>
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/editText1"
-        android:layout_alignBottom="@+id/editText1"
-        android:layout_alignLeft="@+id/text_destination"
-        android:ems="10"
+        android:hint="@string/hint_adresse"
         android:inputType="textPostalAddress" />
 
-    <MultiAutoCompleteTextView
-        android:id="@+id/multiAutoCompleteTextView1"
+    <EditText
+        android:id="@+id/edit_adr_destination"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_destination"
+        android:layout_toRightOf="@+id/edit_adr_depart"
+        android:hint="@string/hint_adresse"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/edit_ville_depart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/editText1"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:text="MultiAutoCompleteTextView" />
+        android:layout_below="@+id/edit_adr_depart"
+        android:hint="@string/hint_ville"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/edit_ville_destination"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_adr_destination"
+        android:layout_toRightOf="@+id/edit_ville_depart"
+        android:hint="@string/hint_ville"
+        android:inputType="textPostalAddress" />
 
 </RelativeLayout>
