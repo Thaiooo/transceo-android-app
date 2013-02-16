@@ -37,9 +37,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_nb_personne"
         android:hint="@string/edit_comment"
-        android:inputType="textMultiLine" 
+        android:inputType="textMultiLine"
         android:maxLines="4"
-        android:minLines="4"/>
+        android:minLines="4" />
 
     <TextView
         android:id="@+id/text_depart"
@@ -96,5 +96,14 @@
         android:layout_toRightOf="@+id/edit_ville_depart"
         android:hint="@string/hint_ville"
         android:inputType="textPostalAddress" />
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edit_ville_depart"
+        android:layout_marginTop="20dp"
+        class="com.google.android.gms.maps.MapFragment" />
 
 </RelativeLayout>
