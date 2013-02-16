@@ -17,13 +17,38 @@
 package com.transceo.app.android;
 
 import android.app.Activity;
+import android.graphics.Point;
 import android.os.Bundle;
+import android.view.Display;
+import android.view.WindowManager;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class BookingActivity extends Activity {
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_booking);
+
+		EditText dateText = (EditText) findViewById(R.id.edit_date);
+		EditText heureText = (EditText) findViewById(R.id.edit_time);
+		TextView departLabel = (TextView) findViewById(R.id.text_depart);
+		EditText adrDepartText = (EditText) findViewById(R.id.edit_adr_depart);
+		EditText villeDepartText = (EditText) findViewById(R.id.edit_ville_depart);
+
+		Display display = getWindowManager().getDefaultDisplay();
+		Point size = new Point();
+		display.getSize(size);
+		int width = size.x - 40;
+
+		dateText.setWidth(width / 3);
+		heureText.setWidth(width / 3);
+		departLabel.setWidth(width / 2);
+		adrDepartText.setWidth(width / 2);
+		villeDepartText.setWidth(width / 2);
+
+		getWindow().setSoftInputMode(
+				WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 	}
 
 }
